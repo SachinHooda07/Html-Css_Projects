@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.count {
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 70px;
+  margin-left: 300px;
+  border-radius: 15px;
+  width: calc(88% / 1.8);
+  /* background-color: gainsboro; */
+  box-shadow: 0px 3px 25px goldenrod;
+}
+
+input {
+  background: transparent;
+  background: whitesmoke;
+  width: 95%;
+  font-size: 30px;
+  padding: 20px;
+  margin: 4px;
+  text-align: right;
+  border: none;
+  border-radius: 15px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+  cursor: pointer;
+  background-color: ghostwhite;
+  color: black;
+  border-radius: 50px;
+  box-shadow: -3.5px -3.5px 15px gainsboro;
+  border: none;
+}
+.a:hover {
+  background-color: wheat;
+}
+
+.b {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+}
+.b:hover {
+  color: white;
+  background-color: green;
+}
+.c {
+  color: black;
+  background-color: lightgrey;
+  font-size: 25px;
+}
+.c:hover {
+  background-color: firebrick;
+  color: white;
+}
+.d {
+  font-weight: bold;
+  color: black;
+  background-color: lightgrey;
+  font-size: 25px;
+}
+.e {
+  color: black;
+  background-color: lightgrey;
+  font-size: 25px;
+}
+
+.e:hover {
+  background-color:rgb(240, 8, 8);
+  color: white;
+}

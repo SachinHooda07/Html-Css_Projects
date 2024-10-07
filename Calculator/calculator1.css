@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+input[type="button"] {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-size: large;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+}
+input[type="button"]:hover {
+  background-color: burlywood;
+}
+#a {
+  padding: 10px;
+  font-size: medium;
+  text-align-last: right;
+  border: 2px solid black;
+  border-radius: 5px;
+  border-color: darkgreen;
+}
+#a::placeholder {
+  font-weight: 600;
+  text-align-last: right;
+}
+#equal {
+  border-color: green;
+}
+#equal:hover {
+  background-color: green;
+  color: white;
+}
+#clear {
+  border-color: red;
+}
+#clear:hover {
+  background-color: red;
+  color: white;
+}
+#calculater {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #3a4452;
+  box-shadow: 0px 3px 25px goldenrod;
+  padding: 30px;
+  margin-left: 30%;
+  margin-top: 13%;
+}
+.c {
+  font-size: x-large;
+  color: wheat;
+  border-bottom: 2px dashed dodgerblue;
+  font-family: cursive;
+  cursor: default;
+}
+.c:hover {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

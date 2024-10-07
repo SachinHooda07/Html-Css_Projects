@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(pink, lightgreen, dodgerblue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 10px;
+  width: 50%;
+}
+.registration {
+  font-family: algerian;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 3px dashed firebrick;
+}
+form .container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+form .container2 .inputbox {
+  width: calc(100% / 2 - 20px);
+  margin: 10px;
+}
+form .container2 .inputbox input {
+  height: 40px;
+  width: 100%;
+  border-color: green;
+  border-radius: 5px;
+  font-size: medium;
+}
+form .container2 .inputbox input:hover {
+  background-color: lavenderblush;
+  border-color: darkblue;
+}
+.lastinput {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 50%;
+  border-radius: 50px;
+  margin-left: 12rem;
+  cursor: pointer;
+}
+.lastinput:hover {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  transition: 0.6s;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: #191919;
+      }
+      h1 {
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 80px;
+        text-shadow: -1px 2px 3px rgba(236, 247, 76, 0.2);
+        position: relative;
+      }
+      h1::before {
+        content: "SACHINHOODA";
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: yellow;
+        width: 7%;
+        border-right: 2px solid yellow;
+        overflow: hidden;
+        animation: sh 4s linear infinite;
+      }
+      @keyframes sh {
+        0% {
+          width: 0%;
+        }
+        50% {
+          width: 100%;
+        }
+        100% {
+          width: 0%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SACHINHOODA</h1>
+  </body>
+</html>
