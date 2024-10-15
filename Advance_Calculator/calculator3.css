@@ -49,16 +49,19 @@ button {
 }
 
 .b {
-  background-color: darkgreen;
+  background-color: orange;
+  color: black;
+}
+.b:hover {
   color: white;
-  font-weight: bold;
+  background-color: green;
 }
 .c {
   color: tomato;
 }
 .d {
   font-weight: bold;
-  color: aqua;
+  color: green;
 }
 .e {
   color: tomato;

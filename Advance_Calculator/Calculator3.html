@@ -14,32 +14,32 @@
      
      </script>
      <div class="count">
-       <input  readonly title="SACHIN HOODA-Calculater" placeholder="0" id="display"  type="text"></input>
+       <input  readonly title="SACHIN HOODA-Calculater" placeholder="0" id="display"  type="text" />
 
           <button class="c" onclick="currentdisplay=''; document.querySelector('#display').value=currentdisplay">AC</button>
           <button class="e" onclick="currentdisplay= currentdisplay.substring(currentdisplay.length-1,0); document.querySelector('#display').value=currentdisplay">DEL</button>
           <button class="d" onclick="currentdisplay=currentdisplay+'%'; document.querySelector('#display').value=currentdisplay">%</button>
-          <button class="d" onclick="currentdisplay=currentdisplay+'/'; document.querySelector('#display').value=currentdisplay">/</button>
+          <button class="d" onclick="currentdisplay=currentdisplay+'/'; document.querySelector('#display').value=currentdisplay"><i class="fa-solid fa-divide"></i></button>
 
           <button class="a" onclick="currentdisplay=currentdisplay+'7'; document.querySelector('#display').value=currentdisplay">7</button>
           <button class="a" onclick="currentdisplay=currentdisplay+'8'; document.querySelector('#display').value=currentdisplay">8</button>
           <button class="a" onclick="currentdisplay=currentdisplay+'9'; document.querySelector('#display').value=currentdisplay">9</button>
-          <button class="d" onclick="currentdisplay=currentdisplay+'*'; document.querySelector('#display').value=currentdisplay">*</button>
+          <button class="d" onclick="currentdisplay=currentdisplay+'*'; document.querySelector('#display').value=currentdisplay"><i class="fa-solid fa-xmark"></i></button>
 
           <button class="a" onclick="currentdisplay=currentdisplay+'4'; document.querySelector('#display').value=currentdisplay">4</button>
           <button class="a" onclick="currentdisplay=currentdisplay+'5'; document.querySelector('#display').value=currentdisplay">5</button>
           <button class="a" onclick="currentdisplay=currentdisplay+'6'; document.querySelector('#display').value=currentdisplay">6</button>
-          <button class="d" onclick="currentdisplay=currentdisplay+'-'; document.querySelector('#display').value=currentdisplay">-</button>
+          <button class="d" onclick="currentdisplay=currentdisplay+'-'; document.querySelector('#display').value=currentdisplay"><i class="fa-solid fa-minus"></i></button>
 
           <button class="a" onclick="currentdisplay=currentdisplay+'1'; document.querySelector('#display').value=currentdisplay">1</button>
           <button class="a" onclick="currentdisplay=currentdisplay+'2'; document.querySelector('#display').value=currentdisplay">2</button>
           <button class="a" onclick="currentdisplay=currentdisplay+'3'; document.querySelector('#display').value=currentdisplay">3</button>
-          <button class="d" onclick="currentdisplay=currentdisplay+'+'; document.querySelector('#display').value=currentdisplay">+</button>
+          <button class="d" onclick="currentdisplay=currentdisplay+'+'; document.querySelector('#display').value=currentdisplay"><i class="fa-solid fa-plus"></i></button>
           <button class="a" onclick="currentdisplay=currentdisplay+'00'; document.querySelector('#display').value=currentdisplay">00</button>
           <button class="a" onclick="currentdisplay=currentdisplay+'0'; document.querySelector('#display').value=currentdisplay">0</button>
           <button class="a" onclick="currentdisplay=currentdisplay+'.'; document.querySelector('#display').value=currentdisplay">.</button>
 
-          <button class="b" onclick= " let result=eval(currentdisplay);currentdisplay=result;document.querySelector('#display').value=currentdisplay">=</button>
+          <button class="b" onclick= " let result=eval(currentdisplay);currentdisplay=result;document.querySelector('#display').value=currentdisplay"><i class="fa-solid fa-equals"></i></button>
           <button class="x"  onclick= " let rom=(currentdisplay*currentdisplay);currentdisplay=rom;document.querySelector('#display').value=currentdisplay">x<sup>2</sup></button>
           <button class="x"  onclick= " let res=Math.sqrt(currentdisplay);currentdisplay=res;document.querySelector('#display').value=currentdisplay">sqrt</button>
           <button class="x"  onclick= " let sh=(currentdisplay *currentdisplay* currentdisplay);currentdisplay=sh;document.querySelector('#display').value=currentdisplay">x<sup>3</sup></button>
@@ -48,5 +48,7 @@
           <button class="x"  onclick= " let sql=Math.round(currentdisplay);currentdisplay=sql;document.querySelector('#display').value=currentdisplay">.(R)</button>
          
      </div>
+
+     <script src="https://kit.fontawesome.com/93c9fbffda.js" crossorigin="anonymous"></script>
 </body>
 </html>
