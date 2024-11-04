@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
 body {
   height: 100%;
   width: 100vh;
@@ -22,7 +21,6 @@ body {
   /* background-color: gainsboro; */
   box-shadow: 0px 3px 25px goldenrod;
 }
-
 input {
   background: transparent;
   background: whitesmoke;
@@ -34,7 +32,6 @@ input {
   border: none;
   border-radius: 15px;
 }
-
 button {
   width: 60px;
   height: 60px;
@@ -52,7 +49,6 @@ button {
 .a:hover {
   background-color: wheat;
 }
-
 .b {
   background-color: orange;
   color: black;
@@ -82,7 +78,6 @@ button {
   background-color: lightgrey;
   font-size: 25px;
 }
-
 .e:hover {
   background-color: rgb(240, 8, 8);
   color: white;
