@@ -46,7 +46,7 @@ button {
   background-color: ghostwhite;
   color: black;
   border-radius: 50px;
-  box-shadow: -3.5px -3.5px 15px gainsboro;
+  box-shadow: -3.5px -3.5px 15px rgb(177, 176, 176);
   border: none;
 }
 .a:hover {
